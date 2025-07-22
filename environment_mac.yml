@@ -1,0 +1,30 @@
+name: dip
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - imageio
+  - scikit-image
+  - opencv
+  - pillow
+  - ipython
+  - jupyterlab
+  - notebook
+  - tqdm
+  - pyqt
+  - pyside6
+  - pip:
+      - bleach
+      - pywavelets
+      - jinja2
+      - pyyaml
+      - pyzmq
